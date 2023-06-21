@@ -66,8 +66,8 @@ afterEvaluate{
             release(MavenPublication){
                 from components.release
                 groupId = 'com.hostel.toastylibrary'
-                artifactId = 'toastylibrary'
-                version= "1.0.4"
+                artifactId = 'com.hostel.toastylibrary'
+                version= "1.0.5"
             }
         }
     }
