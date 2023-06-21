@@ -20,6 +20,8 @@ publishing {
                 }
             }
 }
+
+
 android {
     namespace 'com.hostel.toastylibrary'
     compileSdk 33
