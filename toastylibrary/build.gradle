@@ -4,6 +4,22 @@ plugins {
     id 'maven-publish'
 }
 
+publishing {
+
+            publications {
+                maven(MavenPublication) {
+                    groupId = 'com.hostel.toastylibrary'
+                    artifactId = 'com.hostel.toastylibrary'
+                    version = "1.0"
+                   // from components.java
+
+                    pom {
+                        description = 'toast library'
+                    }
+
+                }
+            }
+}
 android {
     namespace 'com.hostel.toastylibrary'
     compileSdk 33
